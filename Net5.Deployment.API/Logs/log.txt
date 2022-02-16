@@ -949,3 +949,170 @@ Newtonsoft.Json.JsonReaderException: Unexpected character encountered while pars
    at HealthChecks.UI.Core.HostedService.HealthCheckReportCollector.GetHealthReport(HealthCheckConfiguration configuration)
 2022-02-16 16:48:37.589 -05:00 [INF] Notification is sent on same window time.
 2022-02-16 16:48:37.603 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:50:19.868 -05:00 [INF] Initializing UI Database
+2022-02-16 17:50:20.886 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:50:21.173 -05:00 [INF] Saving healthchecks configuration to database
+2022-02-16 17:50:21.310 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:50:21.750 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'AlumnoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-16 17:50:22.071 -05:00 [INF] Executed DbCommand (134ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AlumnoId], [a].[Apellidos], [a].[Edad], [a].[FechaRegistro], [a].[Nivel], [a].[Nombres]
+FROM [Alumno] AS [a]
+2022-02-16 17:50:22.481 -05:00 [INF] Executed DbCommand (146ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p2;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p4;
+SELECT @@ROWCOUNT;
+2022-02-16 17:50:22.894 -05:00 [INF] Executed DbCommand (124ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 75) (DbType = AnsiString), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (Size = 75) (DbType = AnsiString), @p5='?' (Size = 75) (DbType = AnsiString), @p6='?' (DbType = Guid), @p7='?' (Size = 75) (DbType = AnsiString), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (Size = 75) (DbType = AnsiString), @p11='?' (Size = 75) (DbType = AnsiString), @p12='?' (DbType = Guid), @p13='?' (Size = 75) (DbType = AnsiString), @p14='?' (DbType = Int32), @p15='?' (DbType = DateTime), @p16='?' (Size = 75) (DbType = AnsiString), @p17='?' (Size = 75) (DbType = AnsiString), @p18='?' (DbType = Guid), @p19='?' (Size = 75) (DbType = AnsiString), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime), @p22='?' (Size = 75) (DbType = AnsiString), @p23='?' (Size = 75) (DbType = AnsiString), @p24='?' (DbType = Guid), @p25='?' (Size = 75) (DbType = AnsiString), @p26='?' (DbType = Int32), @p27='?' (DbType = DateTime), @p28='?' (Size = 75) (DbType = AnsiString), @p29='?' (Size = 75) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Alumno] ([AlumnoId], [Apellidos], [Edad], [FechaRegistro], [Nivel], [Nombres])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5),
+(@p6, @p7, @p8, @p9, @p10, @p11),
+(@p12, @p13, @p14, @p15, @p16, @p17),
+(@p18, @p19, @p20, @p21, @p22, @p23),
+(@p24, @p25, @p26, @p27, @p28, @p29);
+2022-02-16 17:50:23.317 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:50:23.321 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger - -
+2022-02-16 17:50:23.364 -05:00 [INF] Start processing HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:50:23.366 -05:00 [INF] Sending HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:50:23.436 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+2022-02-16 17:50:23.475 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger - - - 301 - - 158.7214ms
+2022-02-16 17:50:23.595 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 17:50:23.596 -05:00 [INF] Hosting environment: Development
+2022-02-16 17:50:23.596 -05:00 [INF] Content root path: C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\Net5.Deployment.API
+2022-02-16 17:50:23.723 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 286.8485ms
+2022-02-16 17:50:23.726 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - -
+2022-02-16 17:50:23.727 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - -
+2022-02-16 17:50:23.728 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - -
+2022-02-16 17:50:23.766 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-16 17:50:23.766 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-16 17:50:23.766 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-16 17:50:23.768 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - - - 200 142933 text/css 41.7343ms
+2022-02-16 17:50:23.774 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 46.1402ms
+2022-02-16 17:50:23.775 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+2022-02-16 17:50:23.780 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11953 application/javascript;+charset=utf-8 4.7260ms
+2022-02-16 17:50:23.789 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 61.7556ms
+2022-02-16 17:50:24.056 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+2022-02-16 17:50:24.168 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.5209ms
+2022-02-16 17:50:42.833 -05:00 [INF] Received HTTP response headers after 19463.8765ms - 503
+2022-02-16 17:50:42.834 -05:00 [INF] End processing HTTP request after 19478.6542ms - 503
+2022-02-16 17:50:43.168 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:50:43.333 -05:00 [INF] Saved 5 entities to in-memory store.
+2022-02-16 17:50:53.377 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:50:53.379 -05:00 [INF] Start processing HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:50:53.379 -05:00 [INF] Sending HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:50:53.584 -05:00 [INF] Received HTTP response headers after 205.1489ms - 200
+2022-02-16 17:50:53.584 -05:00 [INF] End processing HTTP request after 205.6106ms - 200
+2022-02-16 17:50:53.609 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:50:53.637 -05:00 [INF] Saved 6 entities to in-memory store.
+2022-02-16 17:51:03.653 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:51:03.653 -05:00 [INF] Start processing HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:51:03.653 -05:00 [INF] Sending HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:51:03.845 -05:00 [INF] Received HTTP response headers after 191.8702ms - 200
+2022-02-16 17:51:03.845 -05:00 [INF] End processing HTTP request after 192.2865ms - 200
+2022-02-16 17:51:03.849 -05:00 [INF] Saved 5 entities to in-memory store.
+2022-02-16 17:51:13.860 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:51:13.860 -05:00 [INF] Start processing HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:51:13.860 -05:00 [INF] Sending HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:51:14.036 -05:00 [INF] Received HTTP response headers after 175.6159ms - 503
+2022-02-16 17:51:14.036 -05:00 [INF] End processing HTTP request after 175.9438ms - 503
+2022-02-16 17:51:14.038 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:51:14.039 -05:00 [INF] Saved 6 entities to in-memory store.
+2022-02-16 17:51:24.065 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:51:24.065 -05:00 [INF] Start processing HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:51:24.066 -05:00 [INF] Sending HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:51:24.260 -05:00 [INF] Received HTTP response headers after 194.0456ms - 200
+2022-02-16 17:51:24.260 -05:00 [INF] End processing HTTP request after 194.6524ms - 200
+2022-02-16 17:51:24.262 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:51:24.263 -05:00 [INF] Saved 6 entities to in-memory store.
+2022-02-16 17:53:54.649 -05:00 [INF] Initializing UI Database
+2022-02-16 17:53:55.484 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:53:55.670 -05:00 [INF] Saving healthchecks configuration to database
+2022-02-16 17:53:55.822 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:53:56.299 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'AlumnoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-16 17:53:56.618 -05:00 [INF] Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AlumnoId], [a].[Apellidos], [a].[Edad], [a].[FechaRegistro], [a].[Nivel], [a].[Nombres]
+FROM [Alumno] AS [a]
+2022-02-16 17:53:57.035 -05:00 [INF] Executed DbCommand (154ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p2;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Alumno]
+WHERE [AlumnoId] = @p4;
+SELECT @@ROWCOUNT;
+2022-02-16 17:53:57.453 -05:00 [INF] Executed DbCommand (126ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 75) (DbType = AnsiString), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (Size = 75) (DbType = AnsiString), @p5='?' (Size = 75) (DbType = AnsiString), @p6='?' (DbType = Guid), @p7='?' (Size = 75) (DbType = AnsiString), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (Size = 75) (DbType = AnsiString), @p11='?' (Size = 75) (DbType = AnsiString), @p12='?' (DbType = Guid), @p13='?' (Size = 75) (DbType = AnsiString), @p14='?' (DbType = Int32), @p15='?' (DbType = DateTime), @p16='?' (Size = 75) (DbType = AnsiString), @p17='?' (Size = 75) (DbType = AnsiString), @p18='?' (DbType = Guid), @p19='?' (Size = 75) (DbType = AnsiString), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime), @p22='?' (Size = 75) (DbType = AnsiString), @p23='?' (Size = 75) (DbType = AnsiString), @p24='?' (DbType = Guid), @p25='?' (Size = 75) (DbType = AnsiString), @p26='?' (DbType = Int32), @p27='?' (DbType = DateTime), @p28='?' (Size = 75) (DbType = AnsiString), @p29='?' (Size = 75) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Alumno] ([AlumnoId], [Apellidos], [Edad], [FechaRegistro], [Nivel], [Nombres])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5),
+(@p6, @p7, @p8, @p9, @p10, @p11),
+(@p12, @p13, @p14, @p15, @p16, @p17),
+(@p18, @p19, @p20, @p21, @p22, @p23),
+(@p24, @p25, @p26, @p27, @p28, @p29);
+2022-02-16 17:53:57.856 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2022-02-16 17:53:57.866 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger - -
+2022-02-16 17:53:57.911 -05:00 [INF] Start processing HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:53:57.913 -05:00 [INF] Sending HTTP request GET "https://webnet5api.azurewebsites.net/health"
+2022-02-16 17:53:57.979 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+2022-02-16 17:53:58.023 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger - - - 301 - - 149.2854ms
+2022-02-16 17:53:58.102 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 17:53:58.103 -05:00 [INF] Hosting environment: Development
+2022-02-16 17:53:58.103 -05:00 [INF] Content root path: C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\Net5.Deployment.API
+2022-02-16 17:53:58.252 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 272.4519ms
+2022-02-16 17:53:58.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - -
+2022-02-16 17:53:58.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - -
+2022-02-16 17:53:58.259 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - -
+2022-02-16 17:53:58.260 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+2022-02-16 17:53:58.276 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11953 application/javascript;+charset=utf-8 15.8536ms
+2022-02-16 17:53:58.310 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-16 17:53:58.310 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-16 17:53:58.310 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-16 17:53:58.313 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - - - 200 142933 text/css 55.3303ms
+2022-02-16 17:53:58.319 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 60.3525ms
+2022-02-16 17:53:58.341 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 83.3455ms
+2022-02-16 17:53:58.569 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+2022-02-16 17:53:58.704 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.8772ms
+2022-02-16 17:53:59.157 -05:00 [INF] Received HTTP response headers after 1240.7804ms - 503
+2022-02-16 17:53:59.158 -05:00 [INF] End processing HTTP request after 1255.3402ms - 503
+2022-02-16 17:53:59.462 -05:00 [INF] Saved 1 entities to in-memory store.
+2022-02-16 17:53:59.616 -05:00 [INF] Saved 5 entities to in-memory store.
+2022-02-16 17:54:02.473 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44342/api/Alumnos - -
+2022-02-16 17:54:02.527 -05:00 [INF] Executing endpoint 'Net5.Deployment.API.Controllers.AlumnosController.GetAlumnoAsync (Net5.Deployment.API)'
+2022-02-16 17:54:02.546 -05:00 [INF] Route matched with {action = "GetAlumno", controller = "Alumnos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Net5.Deployment.API.Infrastructure.Data.Entities.Alumno]] GetAlumnoAsync() on controller Net5.Deployment.API.Controllers.AlumnosController (Net5.Deployment.API).
+2022-02-16 17:54:02.572 -05:00 [INF] Entity Framework Core 5.0.13 initialized 'AlumnoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-16 17:54:02.734 -05:00 [INF] Executed DbCommand (139ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AlumnoId], [a].[Apellidos], [a].[Edad], [a].[FechaRegistro], [a].[Nivel], [a].[Nombres]
+FROM [Alumno] AS [a]
+2022-02-16 17:54:02.754 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Net5.Deployment.API.Infrastructure.Data.Entities.Alumno, Net5.Deployment.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-16 17:54:02.775 -05:00 [INF] Executed action Net5.Deployment.API.Controllers.AlumnosController.GetAlumnoAsync (Net5.Deployment.API) in 223.8558ms
+2022-02-16 17:54:02.776 -05:00 [INF] Executed endpoint 'Net5.Deployment.API.Controllers.AlumnosController.GetAlumnoAsync (Net5.Deployment.API)'
+2022-02-16 17:54:02.778 -05:00 [INF] HTTP GET /api/Alumnos responded 200 in 253.4062 ms
+2022-02-16 17:54:02.781 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44342/api/Alumnos - - - 200 - application/json;+charset=utf-8 308.6021ms
