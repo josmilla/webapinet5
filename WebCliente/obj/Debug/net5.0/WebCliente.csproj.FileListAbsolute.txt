@@ -356,3 +356,15 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\Net5-Desarrollo-202112\Net5-Desarrol
 C:\Documentos\jose\bcp\Cursos NET\descargas\Net5-Desarrollo-202112\Net5-Desarrollo-202112\Alumno\Net5.Deployment\WebCliente\obj\Debug\net5.0\WebCliente.Views.pdb
 C:\Documentos\jose\bcp\Cursos NET\descargas\Net5-Desarrollo-202112\Net5-Desarrollo-202112\Alumno\Net5.Deployment\WebCliente\obj\Debug\net5.0\WebCliente.csproj.CopyComplete
 C:\Documentos\jose\bcp\Cursos NET\descargas\Net5-Desarrollo-202112\Net5-Desarrollo-202112\Alumno\Net5.Deployment\WebCliente\obj\Debug\net5.0\WebCliente.genruntimeconfig.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.csproj.AssemblyReference.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.AssemblyInfoInputs.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.AssemblyInfo.cs
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.csproj.CoreCompileInputs.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.MvcApplicationPartsAssemblyInfo.cs
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.MvcApplicationPartsAssemblyInfo.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.RazorAssemblyInfo.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.RazorAssemblyInfo.cs
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.dll
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\ref\WebCliente.dll
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.pdb

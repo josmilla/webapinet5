@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj": {}
+    "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj": {}
   },
   "projects": {
-    "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.API\\Net5.Deployment.API.csproj": {
+    "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.API\\Net5.Deployment.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.API\\Net5.Deployment.API.csproj",
+        "projectUniqueName": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.API\\Net5.Deployment.API.csproj",
         "projectName": "Net5.Deployment.API",
-        "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.API\\Net5.Deployment.API.csproj",
+        "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.API\\Net5.Deployment.API.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.API\\obj\\",
+        "outputPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj": {
+    "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj",
+        "projectUniqueName": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj",
         "projectName": "Net5.Deployment.TestNUnit",
-        "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj",
+        "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.TestNUnit\\Net5.Deployment.TestNUnit.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.TestNUnit\\obj\\",
+        "outputPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.TestNUnit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +169,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.API\\Net5.Deployment.API.csproj": {
-                "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\Net5.Deployment.API\\Net5.Deployment.API.csproj"
+              "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.API\\Net5.Deployment.API.csproj": {
+                "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\Net5.Deployment.API\\Net5.Deployment.API.csproj"
               }
             }
           }

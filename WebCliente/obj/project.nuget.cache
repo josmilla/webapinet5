@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ttNlcW+Am2q5KY0r7TitP49M9E4SZUpu1ZNjsfzzxmeJBtwm+wag9YXZIKuMjmR9a8q+NF+kSmy4kQI3ojrd6A==",
+  "dgSpecHash": "0FRsy0ieFyOciuyQQV1/K9omH73u4vxs6dGzgD1tmwYTMN16HFXQf+FhX8kB/RD9r7xG2r6O9XKxVs7WB3eyAg==",
   "success": true,
-  "projectFilePath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\WebCliente\\WebCliente.csproj",
+  "projectFilePath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\WebCliente\\WebCliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.13\\microsoft.aspnetcore.mvc.razor.extensions.5.0.13.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.13\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.13.nupkg.sha512",

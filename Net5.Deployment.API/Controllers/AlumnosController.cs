@@ -59,7 +59,7 @@ namespace Net5.Deployment.API.Controllers
             {
                 return NotFound();
             }
-           // return RedirectToAction(nameof(Index));
+           
            return NoContent();
         }
 

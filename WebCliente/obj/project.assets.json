@@ -741,11 +741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\WebCliente\\WebCliente.csproj",
+      "projectUniqueName": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\WebCliente\\WebCliente.csproj",
       "projectName": "WebCliente",
-      "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\WebCliente\\WebCliente.csproj",
+      "projectPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\WebCliente\\WebCliente.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\Net5-Desarrollo-202112\\Net5-Desarrollo-202112\\Alumno\\Net5.Deployment\\WebCliente\\obj\\",
+      "outputPath": "C:\\Documentos\\jose\\bcp\\Cursos NET\\descargas\\webapinet5\\WebCliente\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
