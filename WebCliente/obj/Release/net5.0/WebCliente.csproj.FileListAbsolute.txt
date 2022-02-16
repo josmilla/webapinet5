@@ -713,3 +713,4 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\ne
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.pdb
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.genruntimeconfig.cache
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\bin\Release\net5.0\appsettings.Production.json
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
