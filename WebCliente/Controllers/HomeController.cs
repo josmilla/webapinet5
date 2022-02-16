@@ -29,7 +29,7 @@ namespace WebCliente.Controllers
             return View(alumnos);
         }
 
-        
+
         //public async Task<HttpResponseMessage> DeleteAsync(Guid AlumnoId)
         //{
         //     return await _alumnosAgent.Delete(AlumnoId);
@@ -40,9 +40,9 @@ namespace WebCliente.Controllers
 
         public async Task<ActionResult> Delete(Guid Alumnoid)
         {
-              await _alumnosAgent.Delete(Alumnoid);
+            await _alumnosAgent.Delete(Alumnoid);
             return RedirectToAction("Index");
-             
+
         }
 
         //public async Task<ActionResult> Actualizar (Guid Alumnoid, [FromBody] Alumno alumno)
@@ -86,8 +86,8 @@ namespace WebCliente.Controllers
         public async Task<IActionResult> AddEdit(Guid Alumnoid)
         {
             // return View();
-           //  Alumnoid = Guid.Empty;
-             var alumnos = await _alumnosAgent.GetAlumnoid(Alumnoid);
+            //  Alumnoid = Guid.Empty;
+            var alumnos = await _alumnosAgent.GetAlumnoid(Alumnoid);
             return View(alumnos);
         }
         [HttpPost]
@@ -107,9 +107,9 @@ namespace WebCliente.Controllers
                 if (alumno.AlumnoId == Guid.Empty)
                 {
                     var alumnos = await _alumnosAgent.ActualizarAlumno(alumno.AlumnoId, alumno);
-                    
+
                     return View(alumnos);
-                    
+
                 }
 
                 else

@@ -14,14 +14,14 @@ namespace Net5.Deployment.API.Infrastructure.HealthChecks
                 var random = new Random();
                 int res = random.Next(0, 100);
 
-                if(res % 2 == 0)
+                if (res % 2 == 0)
                 {
                     throw new Exception("Random Error Caugth!");
                 }
 
                 return Task.FromResult(HealthCheckResult.Healthy("Custom OK!!"));
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return Task.FromResult(HealthCheckResult.Unhealthy(ex.Message));
             }

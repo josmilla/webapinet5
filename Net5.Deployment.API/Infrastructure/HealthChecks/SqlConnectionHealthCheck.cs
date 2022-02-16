@@ -13,14 +13,14 @@ namespace Net5.Deployment.API.Infrastructure.HealthChecks
 
         private static readonly string DefaultTestQuery = "Select 1";
 
-        public SqlConnectionHealthCheck(string connectionString,string testQuery)
+        public SqlConnectionHealthCheck(string connectionString, string testQuery)
         {
             ConnectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
             TestQuery = testQuery;
         }
 
-        public SqlConnectionHealthCheck(string connectionString):this(connectionString,testQuery:DefaultTestQuery)
-        {            
+        public SqlConnectionHealthCheck(string connectionString) : this(connectionString, testQuery: DefaultTestQuery)
+        {
         }
 
         public async Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken = default)
@@ -31,14 +31,15 @@ namespace Net5.Deployment.API.Infrastructure.HealthChecks
                 {
                     await connection.OpenAsync(cancellationToken);
 
-                    if(TestQuery != null)
+                    if (TestQuery != null)
                     {
                         var command = connection.CreateCommand();
                         command.CommandText = TestQuery;
 
                         await command.ExecuteNonQueryAsync(cancellationToken);
                     }
-                }catch (Exception ex)
+                }
+                catch (Exception ex)
                 {
                     return new HealthCheckResult(status: context.Registration.FailureStatus, exception: ex);
                 }

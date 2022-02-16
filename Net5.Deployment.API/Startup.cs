@@ -36,13 +36,13 @@ namespace Net5.Deployment.API
             });
             string connectionString = Configuration.GetConnectionString("ProductConnectionString");
             services.AddDbContext<AlumnoContext>(o => o.UseSqlServer(connectionString));
-            services.AddScoped<IAlumnoRepository,AlumnoRepository>();
+            services.AddScoped<IAlumnoRepository, AlumnoRepository>();
 
             services.AddHealthChecks()
                 .AddDbContextCheck<AlumnoContext>()
-                .AddUrlGroup(new Uri("http://google.com"),name:"Google Inc.")
-                .AddCheck<CustomHealthCheck>(name:"New Custom Check")
-                .AddCheck("CatalogDB-Check",new SqlConnectionHealthCheck(connectionString),HealthStatus.Unhealthy,new string[] { "catalogdb"});
+                .AddUrlGroup(new Uri("http://google.com"), name: "Google Inc.")
+                .AddCheck<CustomHealthCheck>(name: "New Custom Check")
+                .AddCheck("CatalogDB-Check", new SqlConnectionHealthCheck(connectionString), HealthStatus.Unhealthy, new string[] { "catalogdb" });
 
             services.AddHealthChecksUI()
                 .AddInMemoryStorage();
@@ -53,7 +53,7 @@ namespace Net5.Deployment.API
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();                
+                app.UseDeveloperExceptionPage();
             }
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Net5.Deployment.API v1"));

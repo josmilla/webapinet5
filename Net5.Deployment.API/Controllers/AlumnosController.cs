@@ -37,7 +37,7 @@ namespace Net5.Deployment.API.Controllers
         public async Task<IActionResult> PostAsync([FromBody] Alumno alumno)
         {
             var result = await _alumnoRepository.InsertAsync(alumno);
-            return CreatedAtRoute("GetAlumno", new { id = result.AlumnoId }, result);            
+            return CreatedAtRoute("GetAlumno", new { id = result.AlumnoId }, result);
         }
 
         // PUT api/<AlumnosController>/5
@@ -59,10 +59,10 @@ namespace Net5.Deployment.API.Controllers
             {
                 return NotFound();
             }
-           
-           return NoContent();
+
+            return NoContent();
         }
 
-        
+
     }
 }

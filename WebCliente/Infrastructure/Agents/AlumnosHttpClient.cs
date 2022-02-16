@@ -1,14 +1,14 @@
-﻿using Microsoft.Extensions.Configuration;
-using WebCliente.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
-using System.Net;
-using System.Data;
-using Microsoft.AspNetCore.Mvc;
 using System.Text;
+using System.Threading.Tasks;
+using WebCliente.Models;
 
 namespace WebCliente.Infrastructure.Agents
 {
@@ -16,7 +16,7 @@ namespace WebCliente.Infrastructure.Agents
     {
         private HttpClient _httpClient;
         private string alumnosApiUrl = "";
-        
+
         public AlumnosHttpClient(HttpClient httpClient, IConfiguration configuration)
         {
             alumnosApiUrl = configuration.GetSection("ProductUrl").Value;
@@ -45,7 +45,7 @@ namespace WebCliente.Infrastructure.Agents
 
 
 
-        public async Task<List<Alumno>> Actualizar (Guid alumnoId)
+        public async Task<List<Alumno>> Actualizar(Guid alumnoId)
         {
             alumnosApiUrl = alumnosApiUrl + "/" + alumnoId;
             return await _httpClient.GetFromJsonAsync<List<Alumno>>(alumnosApiUrl);
@@ -76,7 +76,7 @@ namespace WebCliente.Infrastructure.Agents
             return await _httpClient.DeleteAsync(alumnosApiUrl);
 
         }
-        public async Task<Alumno> Update (Guid alumnoId, Alumno alumno)
+        public async Task<Alumno> Update(Guid alumnoId, Alumno alumno)
         {
             alumnosApiUrl = alumnosApiUrl + "/" + alumnoId;
             HttpResponseMessage response = await _httpClient.PostAsync(alumnosApiUrl, new StringContent(alumno.ToString()));
@@ -91,16 +91,16 @@ namespace WebCliente.Infrastructure.Agents
 
             //alumnosApiUrl = alumnosApiUrl + "/" + alumnoId;
             return await _httpClient.PostAsync(alumnosApiUrl, new StringContent(alumno.ToString()));
-            
+
         }
 
         public async Task<HttpResponseMessage> ActualizarAlumno(Guid alumnoId, Alumno alumno)
         {
-           
+
             alumnosApiUrl = alumnosApiUrl + "/" + alumnoId;
             //var content = new StringContentWithoutCharset((alumno.ToString()), "application/json");
             //content = new StringContent(alumnosApiUrl, Encoding.UTF8, "application/json");
-              var httpResponseMessage = await _httpClient.PutAsync(alumnosApiUrl, new StringContent(alumno.ToString()));
+            var httpResponseMessage = await _httpClient.PutAsync(alumnosApiUrl, new StringContent(alumno.ToString()));
             if (httpResponseMessage == null)
             {
                 throw new Exception("Put async error - Http response message is null.");
@@ -113,7 +113,7 @@ namespace WebCliente.Infrastructure.Agents
             //return await response.Content.ReadAsStringAsync().Result;
             //return result;
         }
-        public async Task<Alumno> Crear (Guid alumnoId)
+        public async Task<Alumno> Crear(Guid alumnoId)
         {
             alumnosApiUrl = alumnosApiUrl + "/" + alumnoId;
             HttpResponseMessage response = await _httpClient.PutAsJsonAsync(alumnosApiUrl, new StringContent(ToString()));

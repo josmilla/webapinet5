@@ -1,5 +1,5 @@
 ﻿using System;
- 
+
 
 namespace WebCliente.Models
 {
@@ -17,7 +17,7 @@ namespace WebCliente.Models
         public string Nivel { get; set; }
         public DateTime FechaRegistro { get; set; }
 
-       //public string UpdateAsync { get; set; }
+        //public string UpdateAsync { get; set; }
 
 
 

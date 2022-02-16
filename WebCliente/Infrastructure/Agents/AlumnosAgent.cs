@@ -1,9 +1,9 @@
-﻿using WebCliente.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Net.Http;
-using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+using WebCliente.Models;
 
 namespace WebCliente.Infrastructure.Agents
 {
@@ -22,34 +22,34 @@ namespace WebCliente.Infrastructure.Agents
 
 
         public async Task<Alumno> GetAlumnoid(Guid alumnoid)
-         {
-             return await _client.GetAlumnoByIdAsync(alumnoid);
-         }
+        {
+            return await _client.GetAlumnoByIdAsync(alumnoid);
+        }
 
         public async Task<HttpResponseMessage> Delete(Guid alumnoId)
         {
             return await _client.DeleteAsync(alumnoId);
-          
+
         }
 
 
         //public async Task<HttpResponseMessage> Actualizar (Guid alumnoId, [FromBody] Alumno alumno)
-        public async Task<Alumno> Update  (Guid alumnoId, Alumno alumno)
+        public async Task<Alumno> Update(Guid alumnoId, Alumno alumno)
         {
             return await _client.Update(alumnoId, alumno);
-            
+
         }
 
-        public async Task<Alumno> Crear (Guid alumnoId)
+        public async Task<Alumno> Crear(Guid alumnoId)
         {
             return await _client.Crear(alumnoId);
 
         }
 
-        public async Task<HttpResponseMessage> CrearAlumno ([FromBody] Alumno alumno)
+        public async Task<HttpResponseMessage> CrearAlumno([FromBody] Alumno alumno)
         {
             return await _client.CrearAlumno(alumno);
-            
+
         }
 
         public async Task<HttpResponseMessage> ActualizarAlumno(Guid alumnoId, Alumno alumno)
@@ -58,7 +58,7 @@ namespace WebCliente.Infrastructure.Agents
 
         }
 
-        public async Task<List<Alumno>>ActualizarAsync(Guid alumnoId)
+        public async Task<List<Alumno>> ActualizarAsync(Guid alumnoId)
         {
             return await _client.Actualizar(alumnoId);
         }

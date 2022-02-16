@@ -45,7 +45,7 @@ namespace Net5.Deployment.TestNUnit
             var result = await _controller.GetAsync(new Guid("02540696-8994-42c7-b703-e630223883ab"));
             var alumno = result.As<Alumno>();
             alumno.Should().NotBeNull();
-            alumno.Nombres.Should().Be("Pedro");            
+            alumno.Nombres.Should().Be("Pedro");
         }
 
         private void SeedDb()
