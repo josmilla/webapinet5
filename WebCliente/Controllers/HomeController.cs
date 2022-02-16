@@ -91,7 +91,7 @@ namespace WebCliente.Controllers
             return View(alumnos);
         }
         [HttpPost]
-        public async Task<IActionResult> AddEdit([FromBody] Alumno alumno, AlumnosHttpClient content)
+        public async Task<IActionResult> AddEdit([FromBody] Alumno alumno)
         {
             //_SAlumno = new Alumno();
             //using (var response = await _alumnosAgent.ActualizarAlumno(alumno.AlumnoId, content))
@@ -106,13 +106,10 @@ namespace WebCliente.Controllers
             {
                 if (alumno.AlumnoId == Guid.Empty)
                 {
-                    var alumnos = await _alumnosAgent.ActualizarAlumno(alumno.AlumnoId, content);
-                    //alumnos.EnsureSuccessStatusCode();
-                    //Console.WriteLine("registration status: {0}", alumnos.StatusCode);
-                    //return RedirectToAction("Index");
+                    var alumnos = await _alumnosAgent.ActualizarAlumno(alumno.AlumnoId, alumno);
+                    
                     return View(alumnos);
-                    //await _alumnosAgent.CrearAlumno(alumno);
-                    // return RedirectToAction("AddEdit");
+                    
                 }
 
                 else

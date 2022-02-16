@@ -52,9 +52,9 @@ namespace WebCliente.Infrastructure.Agents
             
         }
 
-        public async Task<HttpResponseMessage> ActualizarAlumno(Guid alumnoId, HttpContent content)
+        public async Task<HttpResponseMessage> ActualizarAlumno(Guid alumnoId, Alumno alumno)
         {
-            return await _client.ActualizarAlumno(alumnoId, content);
+            return await _client.ActualizarAlumno(alumnoId, alumno);
 
         }
 
@@ -63,10 +63,10 @@ namespace WebCliente.Infrastructure.Agents
             return await _client.Actualizar(alumnoId);
         }
 
-        internal Task<IDisposable> ActualizarAlumno(Guid alumnoId, AlumnosHttpClient content)
-        {
-            throw new NotImplementedException();
-        }
+        //internal Task<IDisposable> ActualizarAlumno(Guid alumnoId, AlumnosHttpClient content)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         //public async Task<HttpResponseMessage> PutAsync(Guid alumnoId, [FromBody] Alumno alumno)
         //{

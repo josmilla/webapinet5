@@ -94,13 +94,13 @@ namespace WebCliente.Infrastructure.Agents
             
         }
 
-        public async Task<HttpResponseMessage> ActualizarAlumno(Guid alumnoId, HttpContent content)
+        public async Task<HttpResponseMessage> ActualizarAlumno(Guid alumnoId, Alumno alumno)
         {
            
             alumnosApiUrl = alumnosApiUrl + "/" + alumnoId;
             //var content = new StringContentWithoutCharset((alumno.ToString()), "application/json");
             //content = new StringContent(alumnosApiUrl, Encoding.UTF8, "application/json");
-              var httpResponseMessage = await _httpClient.PutAsync(alumnosApiUrl, content);
+              var httpResponseMessage = await _httpClient.PutAsync(alumnosApiUrl, new StringContent(alumno.ToString()));
             if (httpResponseMessage == null)
             {
                 throw new Exception("Put async error - Http response message is null.");
