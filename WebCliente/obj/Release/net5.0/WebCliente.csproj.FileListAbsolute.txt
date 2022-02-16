@@ -698,12 +698,10 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\ne
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.TagHelpers.output.cache
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.RazorCoreGenerate.cache
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Home\AddEdit.cshtml.g.cs
-C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Home\Detalle.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.RazorTargetAssemblyInfo.cache
@@ -714,3 +712,4 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\ne
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\ref\WebCliente.dll
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.pdb
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\WebCliente.genruntimeconfig.cache
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\bin\Release\net5.0\appsettings.Production.json

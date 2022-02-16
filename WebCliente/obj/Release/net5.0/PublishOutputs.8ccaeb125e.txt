@@ -37,6 +37,7 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\ne
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\appsettings.Production.json
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\WebCliente.dll
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\WebCliente.deps.json
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Release\net5.0\PubTmp\Out\WebCliente.runtimeconfig.json
