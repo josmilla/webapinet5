@@ -23,7 +23,7 @@ jobs:
     - name: Run Azure appservice Deploy
       uses: azure/webapps-deploy@v2
       with: 
-        appname: webapinet5
+        appname: webnet5api
         publish-profile: ${{ secrets.SECRET_DEPLOYAPINET}}
         package: ./Api
          
