@@ -684,6 +684,7 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\bin\Debug\net5
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.csproj.AssemblyReference.cache
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.GeneratedMSBuildEditorConfig.editorconfig
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.AssemblyInfoInputs.cache
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.AssemblyInfo.cs
@@ -702,6 +703,7 @@ C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Documentos\jose\bcp\Cursos NET\descargas\webapinet5\WebCliente\obj\Debug\net5.0\WebCliente.RazorTargetAssemblyInfo.cache
