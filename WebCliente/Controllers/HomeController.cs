@@ -107,10 +107,10 @@ namespace WebCliente.Controllers
                 if (alumno.AlumnoId == Guid.Empty)
                 {
                     var alumnos = await _alumnosAgent.ActualizarAlumno(alumno.AlumnoId, content);
-                    alumnos.EnsureSuccessStatusCode();
-                    Console.WriteLine("registration status: {0}", alumnos.StatusCode);
+                    //alumnos.EnsureSuccessStatusCode();
+                    //Console.WriteLine("registration status: {0}", alumnos.StatusCode);
                     //return RedirectToAction("Index");
-                    //return View(alumnos);
+                    return View(alumnos);
                     //await _alumnosAgent.CrearAlumno(alumno);
                     // return RedirectToAction("AddEdit");
                 }
