@@ -28,4 +28,4 @@ jobs:
         package: ./Api
          
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build  "Net5.Deployment.TestNUnit" --verbosity normal
