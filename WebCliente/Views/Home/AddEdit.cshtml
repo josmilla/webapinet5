@@ -8,34 +8,22 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="AddEdit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @*POR SUPUESTO, NO PODEMOS MODIFICAR
-            EL Id DEL OBJETO*@ 
-            @*<div class="form-group">
-                    <label asp-for="Id" class="control-label"></label>
-                    <input asp-for="Id" class="form-control" />
-                    <span asp-validation-for="Id" class="text-danger"></span>
-                </div>*@
+        <form id="AddEdit" name="AddEdit" method="post">
+            @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
+            
 
              <div class="form-group">
                  @Html.LabelFor(model => model.AlumnoId, htmlAttributes: new { @class = "control-label col-md-2" })
                  @Html.EditorFor(model => model.AlumnoId, new { htmlAttributes = new { @class = "form-control" } })
                  @Html.ValidationMessageFor(model => model.AlumnoId, "", new { @class = "text-danger" })
-
-                @*<label asp-for="AlumnoId" class="control-label"></label>
-                <input asp-for="AlumnoId" class="form-control" />
-                <span asp-validation-for="AlumnoId" class="text-danger"></span>*@
+ 
             </div>
             <div class="form-group">
 
                  @Html.LabelFor(model => model.Nombres, htmlAttributes: new { @class = "control-label col-md-2" })
                  @Html.EditorFor(model => model.Nombres, new { htmlAttributes = new { @class = "form-control" } })
                  @Html.ValidationMessageFor(model => model.Nombres, "", new { @class = "text-danger" })
-
-               @* <label asp-for="Nombres" class="control-label"></label>
-                <input asp-for="Nombres" class="form-control" />
-                <span asp-validation-for="Nombres" class="text-danger"></span>*@
+ 
             </div>
             <div class="form-group">
                  @Html.LabelFor(model => model.Apellidos, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -70,14 +58,5 @@
         </form>
     </div>
 </div>
-
  
-
-@if (ViewData["error"] != null)
-{
-    <div class="alert alert-danger text-center">
-        @ViewData["error"]
-    </div>
-}
-
  
