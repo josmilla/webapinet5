@@ -1,0 +1,60 @@
+﻿@model   IEnumerable<WebCliente.Models.Alumno>
+@{
+    ViewData["Title"] = "Alumno";
+}
+<h4>Listado de Alumnos</h4>
+<hr />
+ 
+<table class="table">
+    <thead>
+        <tr>
+            @*<th> @Html.DisplayNameFor(model => model.AlumnoId) </th>*@
+            <th>@Html.DisplayNameFor(model => model.Nombres)</th>
+            <th>@Html.DisplayNameFor(model => model.Apellidos)</th>
+            <th>@Html.DisplayNameFor(model => model.Edad)</th>
+             <th>@Html.DisplayNameFor(model => model.Nivel)</th>
+             <th>@Html.DisplayNameFor(model => model.FechaRegistro)</th>
+           
+            <th>
+                <a class="btn btn-outline-success"><i class="fa fa-plus-square"></i> Alumno</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+     @*    @foreach (Alumno alumno in Model)*@
+  
+      @foreach(var alumno in Model)
+      {
+     
+        
+        <tr>
+            @*<td>
+                @Html.DisplayFor(model => alumno.AlumnoId)
+            </td>*@
+            <td>
+                @Html.DisplayFor(model => alumno.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(model => alumno.Apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(model => alumno.Edad)
+            </td>
+            <td>
+                @Html.DisplayFor(model => alumno.Nivel)
+            </td>
+            <td>
+                @Html.DisplayFor(model => alumno.FechaRegistro)
+            </td>
+
+             <td class="align-middle">
+                       @Html.ActionLink("Editar", "AddEdit", new { @alumno.AlumnoId }, new { @class="btn btn-info" })
+              </td>
+               <td class="align-middle">
+                    @Html.ActionLink("Delete", "Delete", new { @alumno.AlumnoId },new { @class="btn btn-danger" })
+               </td>
+             
+        </tr>
+        }
+    </tbody>
+</table>

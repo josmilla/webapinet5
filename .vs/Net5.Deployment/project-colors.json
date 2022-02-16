@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "755f3c43-c668-4d6b-9d94-bca6f56c823e": {
+      "ProjectGuid": "755f3c43-c668-4d6b-9d94-bca6f56c823e",
+      "DisplayName": "Net5.Deployment.API",
+      "ColorIndex": 0
+    },
+    "637aa1ea-b929-42d9-9059-57df2c850c87": {
+      "ProjectGuid": "637aa1ea-b929-42d9-9059-57df2c850c87",
+      "DisplayName": "Net5.Deployment.Client",
+      "ColorIndex": 1
+    },
+    "33d26966-fa1e-45d5-a654-8990e39e3265": {
+      "ProjectGuid": "33d26966-fa1e-45d5-a654-8990e39e3265",
+      "DisplayName": "Net5.Deployment.Spec",
+      "ColorIndex": 2
+    },
+    "2592c706-a91d-4524-9ee1-7ab4bdad1eea": {
+      "ProjectGuid": "2592c706-a91d-4524-9ee1-7ab4bdad1eea",
+      "DisplayName": "Net5.Deployment.TestNUnit",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "e2ad3814-7276-4437-859c-a6908c826465": {
+      "ProjectGuid": "e2ad3814-7276-4437-859c-a6908c826465",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 4
+    },
+    "69627679-367f-4985-bb37-4e211a2e7c32": {
+      "ProjectGuid": "69627679-367f-4985-bb37-4e211a2e7c32",
+      "DisplayName": "WebCliente",
+      "ColorIndex": 5
+    },
+    "709cc33f-a2e9-4931-9b02-b21931a73491": {
+      "ProjectGuid": "709cc33f-a2e9-4931-9b02-b21931a73491",
+      "DisplayName": "WebDemoCrud",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
