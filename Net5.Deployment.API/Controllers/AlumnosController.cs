@@ -45,8 +45,8 @@ namespace Net5.Deployment.API.Controllers
         public async Task<IActionResult> PutAsync(Guid id, [FromBody] Alumno alumno)
         {
             var result = await _alumnoRepository.UpdateAsync(id, alumno);
-            //return Ok(result);
-            return RedirectToAction(nameof(Index));
+            return Ok(result);
+            //return RedirectToAction(nameof(Index));
         }
 
         // DELETE api/<AlumnosController>/5
